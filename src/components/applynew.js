@@ -10,6 +10,10 @@ const Apply = () => {
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
+    console.log(name)
+    console.log(value)
+    console.log(type)
+    console.log(checked)
     setFormData({
       ...formData,
       [name]: type === "checkbox" ? checked : value,

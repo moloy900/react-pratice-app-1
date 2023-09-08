@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import Condition from './components/condition'
+import Constructor from './life-cycle-methods/constructor'
 
 
 export default function App(){
   return(
     <div className="App">
-    <Condition/>
+      <Constructor/>
 
     </div>
   )

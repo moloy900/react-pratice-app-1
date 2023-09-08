@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import ComponentDidMount from "./life-cycle-methods/componentdidmount";
+import ComponentDidMount from './life-cycle-methods/componentdidupdate'
 
 
 export default function App(){

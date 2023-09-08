@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import Render from "./life-cycle-methods/render";
+import ComponentDidMount from "./life-cycle-methods/componentdidmount";
 
 
 export default function App(){
   return(
     <div className="App">
-   
-    <Render/>
+      <ComponentDidMount/>
     </div>
   )
 }

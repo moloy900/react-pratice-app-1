@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
-import Constructor from './life-cycle-methods/constructor'
+import Render from "./life-cycle-methods/render";
 
 
 export default function App(){
   return(
     <div className="App">
-      <Constructor/>
-
+   
+    <Render/>
     </div>
   )
 }

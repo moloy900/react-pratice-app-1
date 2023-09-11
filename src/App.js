@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import ComponentWillUnMount from "./life-cycle-methods/componentWillUnmount";
+import Getdrivestatefromprops from './life-cycle-methods/getdrivestatefromprops'
 
 
 export default function App(){
   return(
     <div className="App">
-   
-    <ComponentWillUnMount/>
+      <Getdrivestatefromprops/>
     </div>
   )
 }

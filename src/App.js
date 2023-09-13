@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import Getdrivestatefromprops from './life-cycle-methods/getdrivestatefromprops'
+import GetSnapshotBeforeUpdate from "./life-cycle-methods/getsnapshotbeforeupdate";
 
 
 export default function App(){
   return(
     <div className="App">
-      <Getdrivestatefromprops/>
+      <GetSnapshotBeforeUpdate/>
     </div>
   )
 }

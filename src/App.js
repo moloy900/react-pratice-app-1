@@ -1,12 +1,16 @@
-import "./App.css";
-import React from "react";
-import GetSnapshotBeforeUpdate from "./life-cycle-methods/getsnapshotbeforeupdate";
+import './App.css'
+import React from 'react'
+import UseEffect from './hooks/useEffect'
+// import ComponentDidMountAndUpdate from './life-cycle-methods/componentdidmountandupdate'
 
-
-export default function App(){
-  return(
-    <div className="App">
-      <GetSnapshotBeforeUpdate/>
-    </div>
-  )
+function App(){
+    return(
+        <div className='App'>
+            App Component
+            <UseEffect></UseEffect>
+            {/* <ComponentDidMountAndUpdate></ComponentDidMountAndUpdate> */}
+        </div>
+    )
 }
+
+export default App

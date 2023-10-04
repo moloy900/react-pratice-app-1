@@ -5,7 +5,7 @@ const ComB = (props) => {
   return (
     <div>
       <h2>ComB Component</h2>
-      <ComC val2={props.val}/>
+      <ComC val2={props.val} increase2={props.increase}/>
     </div>
   );
 };

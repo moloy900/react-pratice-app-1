@@ -3,7 +3,7 @@ import React from "react";
 const ComC=(props)=>{
     return(
         <div>
-            <h2>ComC Component {props.val2}</h2>
+            <h2>ComC Component {props.val2} {props.increase2}</h2>
         </div>
     )
 }

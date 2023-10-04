@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import ForwardRef from "./ref-useref/forwardRef";
+import ComA from "./props-drilling/ComA";
 
 function App() {
   return (
     <div className="App">
       App Component
-      <ForwardRef/>
+      <ComA/>
     </div>
   );
 }

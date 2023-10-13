@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
-import Event from './eventhandling/event';
+import Counter from "./reduxToolkit/components/counter";
 
 function App() {
   return (
     <div className="App">
-      App Component
-      <Event/>
+      <h2>App Component</h2>
+          <Counter/>
     </div>
   );
 }
